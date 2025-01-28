@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+    font-family: "Calibri";
+}
+.display {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0 !important;
+    outline: 0 !important;
+    background: hsl(195, 89%, 35%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    width: 300px;
+    margin: 2vh;
+}
+.display:hover {
+    background: hsl(195, 89%, 45%);
+    font-size: 15px;
+}
+
+.display:active {
+    background: hsl(195, 89%, 55%);
+    box-shadow: none;
+}
+.form-container {
+    width: 350px;
+    background-color: #fff;
+    box-shadow: hsla(0, 0%, 0%, 0.35) 0px 0px 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: none; 
+}
+
+.title {
+    text-align: center;
+    margin: 10px 0 30px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 15px;
+}
+
+.input1,.input2,.input3,.input4 {
+    border-radius: 20px;
+    border: 1px solid #c0c0c0;
+    outline: 0 !important;
+    box-sizing: border-box;
+    padding: 12px 15px;
+}
+
+
+.form-btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0 !important;
+    outline: 0 !important;
+    background: hsl(195, 89%, 35%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.form-btn:hover {
+    background: hsl(195, 89%, 45%);
+    font-size: 15px;
+}
+
+.form-btn:active {
+    background: hsl(195, 89%, 55%);
+    box-shadow: none;
+}
+
+.displayed-values{
+    margin-top: 2vh;
+    padding: 2px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#q{
+    color: red;
+}
+
+#w{
+    color: black;
+}

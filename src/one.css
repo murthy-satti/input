@@ -1,0 +1,29 @@
+
+
+body{
+    background-image: url(src/860839.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 99vh;
+    align-items: center;
+    font-family: Calibri;
+  
+  }
+  .time{
+    color: white;
+    font-size: 70px;
+    backdrop-filter: blur(9px);
+    padding: 20px;
+  }
+  .white{
+    color:  red;
+  }
+  .blue{
+    color: blue;
+  }
+  
